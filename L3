@@ -1,0 +1,12 @@
+import random
+again = "y"
+MIN = 1
+MAX = 6
+while again == "y" or again == "Y":
+    print("rolling.........")
+    print(random.randint(MIN,MAX))
+    print(random.randint(MIN,MAX))
+    if MIN == MAX and MAX==MIN:
+        print("you won!!!")
+    else:
+            again=input("do you want to continue:")
